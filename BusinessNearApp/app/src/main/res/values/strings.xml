@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">BusinessNearApp</string>
+    <string name="menu_home">HOME</string>
+    <string name="menu_explore">EXPLORE</string>
+    <string name="menu_queues">MY QUEUES</string>
+    <string name="menu_people">PEOPLE</string>
+    <string name="header_search_bar_hint">Lugares cerca de mi</string>
+    <string name="list_title_label">Negocios cercanos a ti</string>
+    <string name="dialog_lost_connection_title">Sin Conexión</string>
+    <string name="clear_filter_for_get_more_list_user">Debe limpiar el filtro para listar nuevos usuarios.</string>
+    <string name="dialog_lost_connection_accecpt_btn">Aceptar</string>
+    <string name="generic_error">Ha ocurrido un error inesperado</string>
+    <string name="dialog_lost_connection_cancel_btn">Cancelar</string>
+    <string name="dialog_lost_connection_desc_list_empty">No podemos listar los datos debido a un problema en la conexión a internet,
+        intentalo de nuevo más tarde.</string>
+    <string name="dialog_lost_connection_desc_list_fill">No podemos traer datos nuevos debido a un problema en la conexión a internet,
+        puedes buscar el Negocio más cercano en la lista almacenada localmente ó intentalo de nuevo más tarde.</string>
 </resources>

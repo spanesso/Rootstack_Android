@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="user"
+            type="com.rootstack.businessnearapp.model.Result" />
+    </data>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/list_item_bottom_line_vertical_margin"
+            android:layout_marginBottom="@dimen/list_item_bottom_line_vertical_margin">
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="@dimen/table_list_image_icon_size"
+                android:layout_height="@dimen/table_list_image_icon_size"
+                android:src="@mipmap/ic_launcher_round" />
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/item_table_margin_between_components"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/list_item_title"
+                    android:textSize="@dimen/item_table_title_size"
+                    android:textStyle="bold"
+                    tool:text="@{user.name.first + ' ' + user.name.last}"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/list_item_desc"
+                    android:textSize="@dimen/item_table_desc_size"
+                    android:textStyle="bold"
+                    tool:text="@{user.email}"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/table_list_item_bottom_line"
+            android:background="@color/list_item_bottom_line">
+        </LinearLayout>
+    </LinearLayout>
+</layout>

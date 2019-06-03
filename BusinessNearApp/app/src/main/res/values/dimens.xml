@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin dimens -->
+    <dimen name="header_container_lateral_margin">15dp</dimen>
+    <dimen name="header_container_vertical_margin">15dp</dimen>
+    <dimen name="list_container_lateral_margin">10dp</dimen>
+    <dimen name="list_container_vertical_margin">10dp</dimen>
+    <dimen name="list_item_bottom_line_vertical_margin">10dp</dimen>
+    <dimen name="item_table_margin_between_components">10dp</dimen>
+
+    <!-- Sizes icons dimens -->
+    <dimen name="header_tab_icon_size">25dp</dimen>
+    <dimen name="bottom_tab_icon_size">35dp</dimen>
+    <dimen name="table_list_image_icon_size">40dp</dimen>
+    <dimen name="table_list_item_bottom_line">1dp</dimen>
+
+    <!-- Sizes text -->
+    <dimen name="header_search_bar_label_size">16sp</dimen>
+    <dimen name="title_table_label_size">20sp</dimen>
+    <dimen name="item_table_title_size">16sp</dimen>
+    <dimen name="item_table_desc_size">12sp</dimen>
+
+    <!-- Search bar -->
+    <dimen name="header_search_bar_padding_vertical">10dp</dimen>
+    <dimen name="header_search_bar_padding_lateral">15dp</dimen>
+
+    <!-- List container -->
+    <dimen name="list_container_padding_top">20dp</dimen>
+    <dimen name="list_container_lateral_margin_rcv">20dp</dimen>
+
+
+
+
+
+
+</resources>

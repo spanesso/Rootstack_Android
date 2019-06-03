@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#1F2BE7</color>
+    <color name="colorPrimaryDark">#1F2BE7</color>
+    <color name="colorAccent">#1F2BE7</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="gray_container">#DEDDEB</color>
+    <color name="searchBarHint">#AFAFAF</color>
+    <color name="gray_text">#B1B1B9</color>
+    <color name="list_item_title">#505676</color>
+    <color name="list_item_desc">#9393b9</color>
+    <color name="list_item_bottom_line">#d8dbf7</color>
+    <color name="bottom_menu_item_active">#2186eb</color>
+    <color name="bottom_menu_item_normal">#9393b9</color>
 </resources>
