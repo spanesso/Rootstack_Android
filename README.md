@@ -4,6 +4,9 @@
 
 This project was develop with Java Navtive Android:
 
+> used architecture
+- MVVM
+
 > Used Tecnologies
 - Realm DataBase (to list local data when the internet connection fails)
 - Retrofit
