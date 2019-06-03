@@ -5,6 +5,7 @@
 This project was develop with Java Navtive Android:
 
 > Used Tecnologies
+- Realm DataBase (to list local data when the internet connection fails)
 - Retrofit
 - RxJava
 - DataBinding
